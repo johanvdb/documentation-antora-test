@@ -1,0 +1,5 @@
+name: root
+title: Documentation Project
+version: '1.0'
+nav:
+  - modules/ROOT/pages/index.adoc

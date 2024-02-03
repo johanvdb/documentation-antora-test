@@ -1,0 +1,7 @@
+site:
+  title: "My Documentation Project"
+  start_page: root::index.adoc
+content:
+  sources:
+    - url: ./
+      branches: HEAD
