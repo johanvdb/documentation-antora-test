@@ -3,7 +3,7 @@ name: Publish Antora Site
 on:
   push:
     branches:
-      - main  # or your default branch
+      - gh-pages  # or your default branch
 
 jobs:
   build:
