@@ -11,12 +11,10 @@ jobs:
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14' # Antora is built on Node.js
+      uses: actions/setup-node@v4
 
     - name: Install Antora
       run: |
