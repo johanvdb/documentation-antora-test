@@ -1,5 +1,5 @@
 site:
-  title: Antora Docs
+  title: My Website
   start_page: root::index.adoc 
 content:
   sources:
